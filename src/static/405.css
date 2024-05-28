@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* Цвет фона */
+    font-family: Arial, sans-serif;
+}
+
+.error-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+    color: #692d05; /* Цвет заголовка */
+}
+
+p {
+    font-size: 1.5em;
+    color: #692d05; /* Цвет текста */
+}
+
+@keyframes shake {
+    0% { transform: translateX(0px) translateY(-500px); }
+    14% { transform: translateX(5px) translateY(10px); }
+    21% { transform: translateX(-5px) translateY(-10px); }
+    28% { transform: translateX(0px) translateY(0px); }
+    35% { transform: translateX(-5px) translateY(10px); }
+    42% { transform: translateX(5px) translateY(-10px); }
+    49% { transform: translateX(0px) translateY(0px); }
+    56% { transform: translateX(5px) translateY(10px); }
+    63% { transform: translateX(-5px) translateY(-10px); }
+    70% { transform: translateX(0px) translateY(0px); }
+    77% { transform: translateX(-5px) translateY(10px); }
+    84% { transform: translateX(5px) translateY(-10px); }
+    100% { transform: translateX(0px) translateY(-500px); }
+
+}
+
+h1 {
+    animation: shake 4s infinite;
+}
